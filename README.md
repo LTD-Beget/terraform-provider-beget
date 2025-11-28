@@ -32,7 +32,7 @@
 
 ### Настройки провайдера
 
-#### Обязательные 
+#### Обязательные
 
 * ``token`` - токен доступа к Beget API, необходимый для работы провайдера.
 
@@ -345,12 +345,12 @@ Do you want to perform these actions?
   Terraform will perform the actions described above.
   Only 'yes' will be accepted to approve.
 
-  Enter a value: 
+  Enter a value:
 
 ```
 4. Подтвердить изменения вводом ``yes`` в командной строке и дождаться выполнения операций:
 ```
-  Enter a value: yes    
+  Enter a value: yes
 
 beget_ssh_key.devops: Creating...
 beget_ssh_key.devops: Creation complete after 1s [id=27674]
@@ -430,12 +430,12 @@ Do you really want to destroy all resources?
   Terraform will destroy all your managed infrastructure, as shown above.
   There is no undo. Only 'yes' will be accepted to confirm.
 
-  Enter a value: 
+  Enter a value:
 
 ```
 2. Подтвердите принятие изменений вводом ``yes`` в командной строке:
 ```
-  Enter a value: yes      
+  Enter a value: yes
 
 beget_compute_instance.test-server: Destroying... [id=f03a3dbf-d1d7-4b5e-bdca-0ac66531acd6]
 beget_compute_instance.test-server: Destruction complete after 1s
