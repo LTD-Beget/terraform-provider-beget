@@ -10,11 +10,12 @@ description: |-
 Retrieve details of a single virtual server configuration (CPU, RAM, disk, bandwidth and pricing metadata) by its configuration ID.
 
 ## Fields
-- `cpu`, `ram_mb`, `disk_mb`: hardware shape of the configuration
-- `bandwidth_public`: outbound bandwidth cap (Mbps)
+- `cpu`, `ram_mb`, `disk_mb`: hardware configuration
+- `bandwidth_public`: bandwidth cap (Mbps)
 - `price_day`, `price_month`: billing rates
 - `available`, `custom`, `configurable`: availability flags
-- `region`, `group`: placement and CPU family
+- `region`: server location
+- `group`: CPU family
 
 ## Example Usage
 ```terraform

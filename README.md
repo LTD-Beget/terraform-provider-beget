@@ -22,7 +22,7 @@
 * [beget_configurations](./docs/data-sources/configurations.md) - доступные конфигурации виртуальных серверов;
 * [beget_configuration_group](./docs/data-sources/configuration_group.md) - отдельная группа конфигураций виртуальных серверов, связанных по типу процессора;
 * [beget_configuration_groups](./docs/data-sources/configuration_groups.md) - доступные группы конфигураций виртуальных серверов, связанных по типу процессора;
-* [beget_isp_license](./docs/data-sources//isp_license.md) - отдельный тип лицензии ISP Manager;
+* [beget_isp_license](./docs/data-sources/isp_license.md) - отдельный тип лицензии ISP Manager;
 * [beget_isp_licenses](./docs/data-sources/isp_licenses.md) - список доступных типов лицензии ISP Manager;
 * [beget_private_networks](./docs/data-sources/private_networks.md) - список созданных для аккаунта приватных сетей;
 * [beget_region](./docs/data-sources/region.md) - отдельная локация для размещения виртуальных серверов;
@@ -32,7 +32,12 @@
 
 ### Настройки провайдера
 
-* ``token`` - токен доступа к Beget API, необходимый для работы провайдера;
+#### Обязательные 
+
+* ``token`` - токен доступа к Beget API, необходимый для работы провайдера.
+
+#### Необязательные
+
 * ``default_create_timeout`` - время таймаута на операции создания ресурсов;
 * ``default_delete_timeout`` - время таймаута на операции удаления ресурсов;
 * ``default_read_timeout`` - время таймаута на операции получения данных от Beget API;
@@ -175,7 +180,7 @@ data "beget_softwares" "software_list" {
 # }
 
 # Данные о дистрибутиве ПО определяются с помощью data source "beget_software"
-$ Для этого можно использовать фильтры по данным, которые можно получить из beget_softwares - в данном случае по полю slug
+# Для этого можно использовать фильтры по данным, которые можно получить из beget_softwares - в данном случае по полю slug
 data "beget_software" "ubuntu" {
   slug = "ubuntu-24-04"
 }

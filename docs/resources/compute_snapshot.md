@@ -19,11 +19,19 @@ resource "beget_compute_snapshot" "main" {
 
 output "snapshot" {
   value = {
-    id                  = beget_compute_snapshot.main.id
-    compute_instance_id = beget_compute_snapshot.main.compute_instance_id
-    status              = beget_compute_snapshot.main.status
-    size                = beget_compute_snapshot.main.size
-    region              = beget_compute_snapshot.main.region
+    id                    = beget_compute_snapshot.main.id
+    compute_instance_id   = beget_compute_snapshot.main.compute_instance_id
+    description           = beget_compute_snapshot.main.description
+    status                = beget_compute_snapshot.main.status
+    size                  = beget_compute_snapshot.main.size
+    date_create           = beget_compute_snapshot.main.date_create
+    region                = beget_compute_snapshot.main.region
+    compute_instance_name = beget_compute_snapshot.main.compute_instance_name
+    configuration = {
+      cpu     = beget_compute_snapshot.main.configuration.cpu
+      ram_mb  = beget_compute_snapshot.main.configuration.ram_mb
+      disk_mb = beget_compute_snapshot.main.configuration.disk_mb
+    }
   }
 }
 ```

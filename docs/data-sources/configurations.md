@@ -42,7 +42,7 @@ locals {
 output "ru1_high_summary" {
   value = {
     count  = length(local.ru1_high)
-    sample = local.ru1_high[one(keys(local.ru1_high))]
+    sample = values(local.ru1_high)[0]
   }
 }
 ```
