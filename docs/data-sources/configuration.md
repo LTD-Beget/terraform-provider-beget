@@ -70,4 +70,3 @@ output "heavy_v4_specs" {
 - `region` (String)
 
 
-

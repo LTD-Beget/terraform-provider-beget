@@ -12,6 +12,7 @@ description: |-
 
 * [beget_compute_instance](./resources/compute_instance.md) - виртуальные сервера (VPS);
 * [beget_compute_snapshot](./resources/compute_snapshot.md) - снапшоты виртуальных серверов;
+* [beget_s3_bucket](./resources/s3_bucket.md) - бакеты объектного хранилища S3;
 * [beget_ssh_key](./resources/ssh_key.md) - SSH-ключи доступа;
 * [beget_additional_ip](./resources/additional_ip.md) - дополнительные выделенные IPv4-адреса;
 * [beget_private_network](./resources/private_network.md) - приватные сети.
