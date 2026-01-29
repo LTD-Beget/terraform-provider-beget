@@ -361,7 +361,8 @@ Read-Only:
 
 Optional:
 
-- `snapshot_id` (Number) Snapshot ID to use for instance creation. Exactly one of `snapshot_id` or `software` must be specified
+- `image_id` (String) Custom image ID to use for instance creation. Exactly one of `snapshot_id`, `image_id` or `software` must be specified
+- `snapshot_id` (Number) Snapshot ID to use for instance creation. Exactly one of `snapshot_id`, `image_id` or `software` must be specified
 - `software` (Attributes) (see [below for nested schema](#nestedatt--image--software))
 
 <a id="nestedatt--image--software"></a>

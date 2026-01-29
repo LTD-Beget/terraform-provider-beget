@@ -10,6 +10,7 @@ description: |-
 
 ### Ресурсы (resource)
 
+* [beget_compute_image](./resources/compute_image.md) - образы виртуальных серверов;
 * [beget_compute_instance](./resources/compute_instance.md) - виртуальные сервера (VPS);
 * [beget_compute_snapshot](./resources/compute_snapshot.md) - снапшоты виртуальных серверов;
 * [beget_s3_bucket](./resources/s3_bucket.md) - бакеты объектного хранилища S3;
