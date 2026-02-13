@@ -13,6 +13,7 @@ description: |-
 * [beget_compute_image](./resources/compute_image.md) - образы виртуальных серверов;
 * [beget_compute_instance](./resources/compute_instance.md) - виртуальные сервера (VPS);
 * [beget_compute_snapshot](./resources/compute_snapshot.md) - снапшоты виртуальных серверов;
+* [beget_postgresql_service](./resources/postgresql_service.md) - облачные базы данных PostgreSQL;
 * [beget_s3_bucket](./resources/s3_bucket.md) - бакеты объектного хранилища S3;
 * [beget_ssh_key](./resources/ssh_key.md) - SSH-ключи доступа;
 * [beget_additional_ip](./resources/additional_ip.md) - дополнительные выделенные IPv4-адреса;
@@ -26,6 +27,7 @@ description: |-
 * [beget_configuration_groups](./data-sources/configuration_groups.md) - доступные группы конфигураций виртуальных серверов, связанных по типу процессора;
 * [beget_isp_license](./data-sources/isp_license.md) - отдельный тип лицензии ISP Manager;
 * [beget_isp_licenses](./data-sources/isp_licenses.md) - список доступных типов лицензии ISP Manager;
+* [beget_postgresql_configurations](./data-sources/postgresql_configurations.md) - список доступных конфигураций облачных баз данных PostgreSQL;
 * [beget_private_networks](./data-sources/private_networks.md) - список созданных для аккаунта приватных сетей;
 * [beget_region](./data-sources/region.md) - отдельная локация для размещения виртуальных серверов;
 * [beget_regions](./data-sources/regions.md) - список доступных локаций для размещения виртуальных серверов;
