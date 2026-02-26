@@ -13,8 +13,9 @@
 * [beget_compute_image](./docs/resources/compute_image.md) - образы виртуальных серверов;
 * [beget_compute_instance](./docs/resources/compute_instance.md) - виртуальные сервера (VPS);
 * [beget_compute_snapshot](./docs/resources/compute_snapshot.md) - снапшоты виртуальных серверов;
-* [beget_postgresql_service](./docs/resources/postgresql_service.md) - облачные базы данных PostgreSQL;
-* [beget_postgresql_role](./docs/resources/postgresql_role.md) - роли (пользователи) в облачной базе PostgreSQL;
+* [beget_postgresql_service](./docs/resources/postgresql_service.md) - облачные сервисы PostgreSQL;
+* [beget_postgresql_role](./docs/resources/postgresql_role.md) - роли (пользователи) в облачном сервисе PostgreSQL;
+* [beget_postgresql_db](./docs/resources/postgresql_db.md) - базы данных облачного сервиса PostgreSQL;
 * [beget_s3_bucket](./docs/resources/s3_bucket.md) - бакеты объектного хранилища S3;
 * [beget_ssh_key](./docs/resources/ssh_key.md) - SSH-ключи доступа;
 * [beget_additional_ip](./docs/resources/additional_ip.md) - дополнительные выделенные IPv4-адреса;
