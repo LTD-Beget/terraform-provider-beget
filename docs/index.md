@@ -17,6 +17,7 @@ description: |-
 * [beget_postgresql_role](./resources/postgresql_role.md) - роли (пользователи) в облачном сервисе PostgreSQL;
 * [beget_postgresql_db](./resources/postgresql_db.md) - базы данных облачного сервиса PostgreSQL;
 * [beget_mysql_service](./resources/mysql_service.md) - облачные сервисы MySQL;
+* [beget_mysql_db](./resources/mysql_db.md) - базы данных облачного сервиса MySQL;
 * [beget_s3_bucket](./resources/s3_bucket.md) - бакеты объектного хранилища S3;
 * [beget_ssh_key](./resources/ssh_key.md) - SSH-ключи доступа;
 * [beget_additional_ip](./resources/additional_ip.md) - дополнительные выделенные IPv4-адреса;
