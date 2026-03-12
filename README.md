@@ -18,6 +18,7 @@
 * [beget_postgresql_db](./docs/resources/postgresql_db.md) - базы данных облачного сервиса PostgreSQL;
 * [beget_mysql_service](./docs/resources/mysql_service.md) - облачные сервисы MySQL;
 * [beget_mysql_db](./docs/resources/mysql_db.md) - базы данных облачного сервиса MySQL;
+* [beget_mysql_access](./docs/resources/mysql_access.md) - доступы к базам данных облачного сервиса MySQL;
 * [beget_s3_bucket](./docs/resources/s3_bucket.md) - бакеты объектного хранилища S3;
 * [beget_ssh_key](./docs/resources/ssh_key.md) - SSH-ключи доступа;
 * [beget_additional_ip](./docs/resources/additional_ip.md) - дополнительные выделенные IPv4-адреса;
