@@ -10,20 +10,20 @@
 
 ### Ресурсы (resource)
 
-* [beget_cdn](./docs/resources/cdn.md) - сервисы доставки контента (CDN);
 * [beget_compute_image](./docs/resources/compute_image.md) - образы виртуальных серверов;
 * [beget_compute_instance](./docs/resources/compute_instance.md) - виртуальные сервера (VPS);
 * [beget_compute_snapshot](./docs/resources/compute_snapshot.md) - снапшоты виртуальных серверов;
+* [beget_ssh_key](./docs/resources/ssh_key.md) - SSH-ключи доступа;
+* [beget_additional_ip](./docs/resources/additional_ip.md) - дополнительные выделенные IPv4-адреса;
+* [beget_private_network](./docs/resources/private_network.md) - приватные сети;
+* [beget_s3_bucket](./docs/resources/s3_bucket.md) - бакеты объектного хранилища S3;
 * [beget_postgresql_service](./docs/resources/postgresql_service.md) - облачные сервисы PostgreSQL;
 * [beget_postgresql_role](./docs/resources/postgresql_role.md) - роли (пользователи) в облачном сервисе PostgreSQL;
 * [beget_postgresql_db](./docs/resources/postgresql_db.md) - базы данных облачного сервиса PostgreSQL;
 * [beget_mysql_service](./docs/resources/mysql_service.md) - облачные сервисы MySQL;
 * [beget_mysql_db](./docs/resources/mysql_db.md) - базы данных облачного сервиса MySQL;
 * [beget_mysql_access](./docs/resources/mysql_access.md) - доступы к базам данных облачного сервиса MySQL;
-* [beget_s3_bucket](./docs/resources/s3_bucket.md) - бакеты объектного хранилища S3;
-* [beget_ssh_key](./docs/resources/ssh_key.md) - SSH-ключи доступа;
-* [beget_additional_ip](./docs/resources/additional_ip.md) - дополнительные выделенные IPv4-адреса;
-* [beget_private_network](./docs/resources/private_network.md) - приватные сети.
+* [beget_cdn](./docs/resources/cdn.md) - сервисы доставки контента (CDN).
 
 ### Источники данных (data source)
 
